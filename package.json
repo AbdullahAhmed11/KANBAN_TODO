@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server --watch db.json --port 4000"
+    "server": "node server.js"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

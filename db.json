@@ -18,7 +18,7 @@
       "id": "28cf",
       "title": "tette",
       "description": "tette",
-      "column": "backlog",
+      "column": "done",
       "priority": "low"
     },
     {
@@ -39,7 +39,7 @@
       "id": "17e7",
       "title": "ads",
       "description": "asd",
-      "column": "in_progress",
+      "column": "backlog",
       "priority": "medium"
     },
     {
@@ -67,7 +67,7 @@
       "id": "4d0f",
       "title": "review",
       "description": "review",
-      "column": "review",
+      "column": "in_progress",
       "priority": "high"
     },
     {
@@ -75,6 +75,13 @@
       "title": "progress",
       "description": "progress",
       "column": "in_progress",
+      "priority": "medium"
+    },
+    {
+      "id": "af75",
+      "title": "ff",
+      "description": "ff",
+      "column": "done",
       "priority": "medium"
     }
   ]
