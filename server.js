@@ -1,8 +1,4 @@
-#!/usr/bin/env node
-/**
- * Custom json-server with public CORS so the API at http://localhost:4000
- * accepts requests from any origin (e.g. Vite dev server on port 5173).
- */
+
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -32,7 +28,6 @@ await db.read();
 
 const app = createApp(db, { logger: false, static: [] });
 
-// Public CORS: allow any origin to access the API at http://localhost:4000 (run first)
 const corsMiddleware = (req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, PUT, DELETE, OPTIONS');
