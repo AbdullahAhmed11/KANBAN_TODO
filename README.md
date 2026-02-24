@@ -4,7 +4,7 @@ Package manager npm
 
 ```bash
 npm install
-```
+
 
 Optional: copy `.env.example` to `.env` and set `VITE_API_URL` if the API runs on a different host/port (default is `http://localhost:4000`).
 
